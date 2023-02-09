@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    gap: 10px;
+    justify-content: center;
+  }
+  .item {
+    width: 100%;
+    object-fit: cover;
+  }
+  

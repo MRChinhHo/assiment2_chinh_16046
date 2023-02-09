@@ -1,0 +1,55 @@
+.container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    top: 66px;
+    margin-bottom: 100px;
+  }
+  .inside {
+    /* justify-content: center; */
+    background-color: white;
+    width: 600px;
+    height: 130px;
+    position: relative;
+  }
+  .inputText {
+    height: 38px;
+    width: 90%;
+    border: none;
+    margin-left: 20px;
+  }
+  .inputText:focus {
+    outline: none;
+  }
+  .icon {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    font-size: 20px;
+  }
+  .btnSearch {
+    position: absolute;
+    border: none;
+    right: 20px;
+    bottom: 17px;
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: larger;
+  }
+  .btnReset {
+    position: absolute;
+    right: 120px;
+    bottom: 17px;
+    padding: 5px 10px;
+    font-size: larger;
+    background-color: white;
+    border-style: none;
+    color: rgb(84, 83, 83);
+  }
+  .line {
+    height: 2px;
+    background-color: dodgerblue;
+    margin-bottom: 10px;
+  }
+  
